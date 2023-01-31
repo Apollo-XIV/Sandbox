@@ -72,7 +72,7 @@ function enigma() {
     CM2.setKey(document.getElementById("CM2Key").value);
     CM3.setKey(document.getElementById("CM3Key").value);
     let input = document.getElementById("inputBox").value;
-    let output = ""
+    let output = "";
     for (let i = 0; i < input.length ; i++) {
         //convert input[i] into 0-25 charcode
         let charcode = input[i].toLowerCase().charCodeAt(0);
@@ -86,7 +86,7 @@ function enigma() {
         charcode = CM1.decode(charcode);
         charcode += 97;
         output += String.fromCharCode(charcode);
-        CM1.rotate()
+        CM1.rotate();
     }
     document.getElementById("outputBox").innerHTML = output;
 }

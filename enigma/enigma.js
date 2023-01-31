@@ -89,5 +89,4 @@ function enigma() {
         CM1.rotate()
     }
     document.getElementById("outputBox").innerHTML = output;
-
 }

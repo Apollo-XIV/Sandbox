@@ -109,7 +109,7 @@ a {
 @media screen and (max-width: 80vh) {
     .grid-container {
         width: 70vw;
-        border-width: 3px;
+        border-width: 5px;
         row-gap: 10px;
         height:fit-content
     }

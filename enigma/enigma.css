@@ -4,6 +4,7 @@ html, body {
 }
 
 
+
 h1 {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -83,4 +84,20 @@ a {
     overflow-wrap: break-word;
     padding: 10px;
     text-align: left;
+}
+@media screen and (max-width: 80vh) {
+    #grid-div {
+        width: 70vw;
+        border-width: 3px;
+        row-gap: 10px;
+        height:fit-content
+    }
+
+    h1 {
+        font-size: 8vw;
+    }
+
+    p {
+        font-size: 2vw;
+    }
 }

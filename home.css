@@ -30,3 +30,13 @@ a {
     color: black;
     text-decoration: none;
 }
+
+@media screen and (max-width: 80vh) {
+    h1 {
+        font-size: 7vw;
+    }
+
+    p {
+        font-size: 4vw;
+    }
+}

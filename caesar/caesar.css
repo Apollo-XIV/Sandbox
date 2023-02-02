@@ -105,3 +105,20 @@ a {
     color: black;
     text-decoration: none;
 }
+
+@media screen and (max-width: 80vh) {
+    .grid-container {
+        width: 70vw;
+        border-width: 3px;
+        row-gap: 10px;
+        height:fit-content
+    }
+
+    h1 {
+        font-size: 8vw;
+    }
+
+    p {
+        font-size: 2vw;
+    }
+}
